@@ -1,0 +1,10 @@
+chromadb
+langchain
+numpy
+pypdf
+tqdm
+ipykernel
+sentence_transformers
+openai
+umap-learn
+matplotlib
