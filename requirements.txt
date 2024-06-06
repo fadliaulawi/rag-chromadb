@@ -8,3 +8,7 @@ sentence_transformers
 openai
 umap-learn
 matplotlib
+pinecone
+tqdm
+pymongo
+qdrant-client

@@ -1,0 +1,32 @@
+{
+  "Task10BGoldenEnriched": {
+    "yesno": 123,
+    "factoid": 166,
+    "summary": 112,
+    "list": 85
+  },
+  "Task11BGoldenEnriched": {
+    "yesno": 86,
+    "factoid": 98,
+    "list": 64,
+    "summary": 79
+  },
+  "Task7BGoldenEnriched": {
+    "factoid": 162,
+    "list": 88,
+    "yesno": 140,
+    "summary": 110
+  },
+  "Task8BGoldenEnriched": {
+    "yesno": 152,
+    "factoid": 151,
+    "list": 75,
+    "summary": 122
+  },
+  "Task9BGoldenEnriched": {
+    "factoid": 163,
+    "list": 97,
+    "summary": 120,
+    "yesno": 117
+  }
+}
