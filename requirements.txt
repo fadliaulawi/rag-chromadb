@@ -6,6 +6,7 @@ tqdm
 ipykernel
 sentence_transformers
 openai
+pandas
 umap-learn
 matplotlib
 pinecone
