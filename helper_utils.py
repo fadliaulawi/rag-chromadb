@@ -1,4 +1,4 @@
-import chromadb
+# import chromadb
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter, SentenceTransformersTokenTextSplitter
 import numpy as np
@@ -33,18 +33,18 @@ def _chunk_texts(texts):
     return token_split_texts
 
 
-def load_chroma(filename, collection_name, embedding_function):
-    texts = _read_pdf(filename)
-    chunks = _chunk_texts(texts)
+# def load_chroma(filename, collection_name, embedding_function):
+#     texts = _read_pdf(filename)
+#     chunks = _chunk_texts(texts)
 
-    chroma_cliet = chromadb.Client()
-    chroma_collection = chroma_cliet.create_collection(name=collection_name, embedding_function=embedding_function)
+#     chroma_cliet = chromadb.Client()
+#     chroma_collection = chroma_cliet.create_collection(name=collection_name, embedding_function=embedding_function)
 
-    ids = [str(i) for i in range(len(chunks))]
+#     ids = [str(i) for i in range(len(chunks))]
 
-    chroma_collection.add(ids=ids, documents=chunks)
+#     chroma_collection.add(ids=ids, documents=chunks)
 
-    return chroma_collection
+#     return chroma_collection
 
 def word_wrap(string, n_chars=72):
     # Wrap a string at the next space after n_chars
